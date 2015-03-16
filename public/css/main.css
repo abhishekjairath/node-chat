@@ -1,0 +1,45 @@
+li :hover
+{
+	background-color: #5b67cd;
+	cursor: pointer;
+}
+
+#chat_window div
+{
+	height: 175px;
+	width: 160px;
+	margin: 0 0 5px 10px; border: solid 1px #999; overflow-y: scroll;
+}
+
+#chat_view_heading
+{
+	background-color: chat_view_heading;
+	color: #fff;
+	width: 120px;
+}
+
+#conversations
+{
+	width: 800px;
+	height: 500px;
+	border: solid 2px;
+
+}
+
+#convo_list
+{
+	width: 25%;
+	position: relative;
+	height: 500;
+	float: left;
+	border-width: 0px;
+}
+
+#convo_content
+{
+	width: 75%;
+	position: relative;
+	float:right;
+	border-width: 0px;
+}
+
